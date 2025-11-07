@@ -7,7 +7,7 @@ import Nav from './Components/Nav'
 import Hoocs from './Components/Hoocs'
 
 import { useState } from 'react';
-import Contectlist from './components/Contectlist'
+import Contectlist from './Components/Contectlist'
 import Table from './Components/Table'
 
 import From from './Components/From'
