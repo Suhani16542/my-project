@@ -1,6 +1,6 @@
 import React from 'react'
 import Props from './Components/Props'
-import Card from './Components/card'
+import Card from './Components/Card'
 import Nav from './Components/Nav'
 
 
