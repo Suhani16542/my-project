@@ -1,29 +1,34 @@
 import React from 'react'
-import Props from './Components/Props'
-import Card from './Components/Card'
-import Nav from './Components/Nav'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Nav from './Components/Nav';
+import Props from './Components/Props';
+import Signup from './Components/Singup';
+import LandingPage from './Components/LandingPage';
+import Task from './Components/Task';
 
 
-import Hoocs from './Components/Hoocs'
-
-import { useState } from 'react';
-import Contectlist from './Components/Contectlist'
-import Table from './Components/Table'
-
-import From from './Components/From'
-import Signup from './Components/Singup'
-import { FaEdit, FaTrash } from "react-icons/fa";
-
-
- function App() {
- return (
+function App() {
+  return (
     <>
-   {/* <From/> */}
-   { <Signup/> }
-      
- </>
+    {/* <BrowserRouter>
+    <Routes>
+       
     
-    
-   )
+      <Route path='/' element={<Nav/>} >
+      <Route index element={<LandingPage/>}/>
+     <Route path='/login' element={<Props/>} />
+       <Route path='/Singup' element={<Signup/>} />
+     </Route>
+
+
+
+    </Routes>
+     </BrowserRouter> */}
+
+     <Task/>
+
+    </>
+  )
 }
+
 export default App
